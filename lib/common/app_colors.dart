@@ -23,10 +23,8 @@ class AppColors {
   static Color textSelectionColor =
       greyHintColor.withAlpha((0.5 * 255).toInt());
   static const Color goldenColor = Color(0xffFFD700);
-
-  static const Color buttonColor = Color(0xFF001CAD);
+  static const Color buttonColor = secondary;
   static const Color buttonTextColor = Color(0xFFFFFFFF);
-
   static const Color hintColor = Color(0xFF565D6D);
   static const Color hintColorGrey = Color(0xFF171A1F);
   static const Color borderColor = Color(0xFFF3F4F6);

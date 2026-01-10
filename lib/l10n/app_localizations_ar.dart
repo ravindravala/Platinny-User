@@ -12,28 +12,29 @@ class AppLocalizationsAr extends AppLocalizations {
   String get login => 'تسجيل الدخول';
 
   @override
-  String get signup => 'إنشاء حساب';
+  String get signup => 'اشتراك';
 
   @override
-  String get welcome => 'مرحباً بك';
+  String get welcome => 'مرحباً';
 
   @override
-  String get continueN => 'متابعة';
+  String get continueN => 'يكمل';
 
   @override
-  String get selectContry => 'اختر الدولة';
+  String get selectContry => 'اختر البلد';
 
   @override
-  String get emailAddressOrMobileNumber => 'البريد الإلكتروني أو رقم الجوال';
+  String get emailAddressOrMobileNumber =>
+      'عنوان البريد الإلكتروني أو رقم الهاتف المحمول';
 
   @override
-  String get email => 'البريد الإلكتروني';
+  String get email => 'بريد إلكتروني';
 
   @override
   String get and => 'و';
 
   @override
-  String get byContinuing => 'بمتابعتك، فإنك توافق على';
+  String get byContinuing => 'من خلال الاستمرار، فإنك توافق على';
 
   @override
   String get terms => 'شروط الخدمة';
@@ -42,99 +43,100 @@ class AppLocalizationsAr extends AppLocalizations {
   String get privacyPolicy => 'سياسة الخصوصية';
 
   @override
-  String get select => 'اختيار';
+  String get select => 'يختار';
 
   @override
   String get chooseLanguage => 'اختر اللغة';
 
   @override
-  String get mobile => 'الجوال';
+  String get mobile => 'متحرك';
 
   @override
-  String get validEmailMobile => 'الرجاء إدخال بريد إلكتروني أو رقم جوال صحيح';
+  String get validEmailMobile => 'الرجاء إدخال بريد إلكتروني أو رقم جوال صالح';
 
   @override
-  String get enterEmailMobile => 'الرجاء إدخال البريد الإلكتروني أو رقم الجوال';
+  String get enterEmailMobile =>
+      'الرجاء إدخال البريد الإلكتروني أو رقم الهاتف المحمول';
 
   @override
-  String get cancel => 'إلغاء';
+  String get cancel => 'يلغي';
 
   @override
   String get otpSendContent =>
-      'تم إرسال رمز التحقق (OTP) إلى رقمك أو بريدك الإلكتروني';
+      'تم إرسال كلمة مرور لمرة واحدة (OTP) إلى هذا الرقم أو البريد الإلكتروني';
 
   @override
   String get passwordContent =>
-      'الرجاء إدخال كلمة المرور الخاصة بالرقم أو البريد الإلكتروني أدناه';
+      'الرجاء إدخال كلمة المرور التي قمت بتعيينها للرقم أو البريد الإلكتروني أدناه';
 
   @override
-  String get change => 'تغيير';
+  String get change => 'يتغير';
 
   @override
   String get password => 'كلمة المرور';
 
   @override
-  String get signInUsingOtp => 'تسجيل الدخول برمز التحقق (OTP)';
+  String get signInUsingOtp => 'تسجيل الدخول باستخدام OTP';
 
   @override
   String get enterYourPassword => 'أدخل كلمة المرور الخاصة بك';
 
   @override
-  String get forgetPassword => 'نسيت كلمة المرور؟';
+  String get forgetPassword => 'نسيت كلمة المرور';
 
   @override
-  String get enterOtp => 'أدخل رمز التحقق';
+  String get enterOtp => 'أدخل كلمة المرور لمرة واحدة';
 
   @override
   String get signInUsingPass => 'تسجيل الدخول باستخدام كلمة المرور';
 
   @override
-  String get resendOtp => 'إعادة إرسال الرمز';
+  String get resendOtp => 'إعادة إرسال OTP';
 
   @override
-  String get confirm => 'تأكيد';
+  String get confirm => 'يتأكد';
 
   @override
-  String get register => 'تسجيل';
+  String get register => 'يسجل';
 
   @override
-  String get name => 'الاسم';
+  String get name => 'اسم';
 
   @override
   String get enterYourName => 'أدخل اسمك';
 
   @override
-  String get enterYourMobile => 'أدخل رقم جوالك';
+  String get enterYourMobile => 'أدخل رقم هاتفك المحمول';
 
   @override
-  String get validMobile => 'الرجاء إدخال رقم جوال صحيح';
+  String get validMobile => 'الرجاء إدخال رقم الهاتف المحمول الصحيح';
 
   @override
-  String get enterYourEmail => 'أدخل بريدك الإلكتروني';
+  String get enterYourEmail => 'أدخل عنوان بريدك الإلكتروني';
 
   @override
-  String get validEmail => 'الرجاء إدخال بريد إلكتروني صحيح';
+  String get validEmail => 'الرجاء إدخال عنوان بريد إلكتروني صالح';
 
   @override
-  String get skip => 'تخطي';
+  String get skip => 'يتخطى';
 
   @override
   String get isThisCorrect => 'هل هذا صحيح؟';
 
   @override
-  String get edit => 'تعديل';
+  String get edit => 'يحرر';
 
   @override
-  String get duration => 'المدة';
+  String get duration => 'مدة';
 
   @override
-  String get distance => 'المسافة';
+  String get distance => 'مسافة';
 
   @override
   String get typeofRide => 'نوع الرحلة';
 
   @override
-  String get fareBreakup => 'تفاصيل الأجرة';
+  String get fareBreakup => 'تقسيم الأجرة';
 
   @override
   String get basePrice => 'السعر الأساسي';
@@ -149,10 +151,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get waitingPrice => 'سعر الانتظار';
 
   @override
-  String get convenienceFee => 'رسوم الخدمة';
+  String get convenienceFee => 'رسوم الراحة';
 
   @override
-  String get discount => 'الخصم';
+  String get discount => 'تخفيض';
 
   @override
   String get taxes => 'الضرائب';
@@ -164,67 +166,67 @@ class AppLocalizationsAr extends AppLocalizations {
   String get enterUserName => 'الرجاء إدخال اسم المستخدم';
 
   @override
-  String get enterEmail => 'الرجاء إدخال البريد الإلكتروني';
+  String get enterEmail => 'الرجاء إدخال عنوان البريد الإلكتروني';
 
   @override
-  String get enterMobile => 'الرجاء إدخال رقم الجوال';
+  String get enterMobile => 'الرجاء إدخال رقم الهاتف المحمول';
 
   @override
   String get enterPassword => 'الرجاء إدخال كلمة المرور';
 
   @override
-  String get validPassword => 'الرجاء إدخال كلمة مرور صحيحة';
+  String get validPassword => 'الرجاء إدخال كلمة مرور صالحة';
 
   @override
-  String get gender => 'الجنس';
+  String get gender => 'جنس';
 
   @override
-  String get selectGender => 'اختر الجنس';
+  String get selectGender => 'حدد الجنس';
 
   @override
-  String get minPassRequired => 'الحد الأدنى 8 أحرف';
+  String get minPassRequired => 'الحد الأدنى المطلوب 8 أحرف';
 
   @override
-  String get requiredField => 'هذا الحقل مطلوب';
+  String get requiredField => 'حقل مطلوب';
 
   @override
   String get enterNewPassword => 'أدخل كلمة المرور الجديدة';
 
   @override
-  String get applyRefferal => 'تفعيل كود الإحالة';
+  String get applyRefferal => 'تطبيق الإحالة';
 
   @override
-  String get enterRefferalCode => 'أدخل كود الإحالة';
+  String get enterRefferalCode => 'أدخل رمز الإحالة';
 
   @override
-  String get apply => 'تطبيق';
+  String get apply => 'يتقدم';
 
   @override
   String get myAccount => 'حسابي';
 
   @override
-  String get personalInformation => 'المعلومات الشخصية';
+  String get personalInformation => 'معلومات شخصية';
 
   @override
-  String get notifications => 'الإشعارات';
+  String get notifications => 'إشعارات';
 
   @override
-  String get history => 'السجل';
+  String get history => 'تاريخ';
 
   @override
-  String get payment => 'المدفوعات';
+  String get payment => 'قسط';
 
   @override
-  String get referEarn => 'أحِل واربح';
+  String get referEarn => 'أحل واكسب';
 
   @override
   String get changeLanguage => 'تغيير اللغة';
 
   @override
-  String get favoriteLocation => 'المواقع المفضلة';
+  String get favoriteLocation => 'الموقع المفضل';
 
   @override
-  String get sos => 'الطوارئ';
+  String get sos => 'استغاثة';
 
   @override
   String get deleteAccount => 'حذف الحساب';
@@ -236,22 +238,22 @@ class AppLocalizationsAr extends AppLocalizations {
   String get mapAppearance => 'مظهر الخريطة';
 
   @override
-  String get chatWithUs => 'تحدث معنا';
+  String get chatWithUs => 'الدردشة معنا';
 
   @override
   String get makeComplaint => 'تقديم شكوى';
 
   @override
-  String get faq => 'الأسئلة الشائعة';
+  String get faq => 'التعليمات';
 
   @override
   String get privacyPolicyAccounts => 'سياسة الخصوصية';
 
   @override
-  String get mobileNumber => 'رقم الجوال';
+  String get mobileNumber => 'رقم الهاتف المحمول';
 
   @override
-  String get emailAddress => 'البريد الإلكتروني';
+  String get emailAddress => 'عنوان البريد الإلكتروني ';
 
   @override
   String get changePassword => 'تغيير كلمة المرور';
@@ -260,10 +262,10 @@ class AppLocalizationsAr extends AppLocalizations {
   String get logout => 'تسجيل الخروج';
 
   @override
-  String get whereAreYouGoing => 'إلى أين وجهتك؟';
+  String get whereAreYouGoing => 'إلى أين أنت ذاهب؟';
 
   @override
-  String get service => 'الخدمة';
+  String get service => 'خدمة';
 
   @override
   String get taxi => 'تاكسي';
@@ -272,131 +274,131 @@ class AppLocalizationsAr extends AppLocalizations {
   String get commercial => 'تجاري';
 
   @override
-  String get sendAndReceive => 'أرسل واستقبل الطرود بسهولة';
+  String get sendAndReceive => 'إرسال واستقبال الطرود بسهولة';
 
   @override
   String get ourParcelService =>
-      'خدمة الطرود لدينا تسهّل عليك إرسال واستلام الطرود بكل راحة وسرعة';
+      'خدمات الطرود لدينا تجعل إرسال واستقبال الطرود أمرًا بسيطًا ومريحًا';
 
   @override
-  String get sendParcel => 'إرسال طرد';
+  String get sendParcel => 'إرسال الطرد';
 
   @override
-  String get receiveParcel => 'استلام طرد';
+  String get receiveParcel => 'استلام الطرد';
 
   @override
-  String get menu => 'القائمة';
+  String get menu => 'قائمة طعام';
 
   @override
   String get update => 'تحديث';
 
   @override
-  String get youCanEdit => 'يمكنك تعديل * الخاص بك هنا';
+  String get youCanEdit => 'يمكنك تعديل *** الخاص بك هنا';
 
   @override
-  String get noNotification => 'لا توجد إشعارات حالياً';
+  String get noNotification => 'لا توجد إشعارات متاحة';
 
   @override
-  String get historyDetails => 'تفاصيل السجل';
+  String get historyDetails => 'تفاصيل التاريخ';
 
   @override
   String get cancelled => 'تم الإلغاء';
 
   @override
-  String get upcoming => 'قادمة';
+  String get upcoming => 'قادم';
 
   @override
-  String get completed => 'مكتملة';
+  String get completed => 'مكتمل';
 
   @override
-  String get cash => 'نقداً';
+  String get cash => 'نقدي';
 
   @override
-  String get wallet => 'المحفظة';
+  String get wallet => 'محفظة';
 
   @override
   String get card => 'بطاقة';
 
   @override
-  String get upi => 'تحويل فوري';
+  String get upi => 'أوبي';
 
   @override
-  String get mins => 'دقيقة';
+  String get mins => 'دقائق';
 
   @override
   String get km => 'كم';
 
   @override
-  String get regular => 'عادية';
+  String get regular => 'عادي';
 
   @override
-  String get rental => 'تأجير';
+  String get rental => 'الإيجار';
 
   @override
-  String get bidding => 'مزايدة';
+  String get bidding => 'المزايدة';
 
   @override
   String get walletBalance => 'رصيد المحفظة';
 
   @override
-  String get transferMoney => 'تحويل الرصيد';
+  String get transferMoney => 'تحويل الأموال';
 
   @override
-  String get addMoney => 'إضافة رصيد';
+  String get addMoney => 'أضف المال';
 
   @override
-  String get recentTransactions => 'آخر المعاملات';
+  String get recentTransactions => 'المعاملات الأخيرة';
 
   @override
   String get enterAmountHere => 'أدخل المبلغ هنا';
 
   @override
-  String get enterMobileNumber => 'أدخل رقم الجوال';
+  String get enterMobileNumber => 'أدخل رقم الهاتف المحمول';
 
   @override
-  String get pay => 'دفع';
+  String get pay => 'يدفع';
 
   @override
   String get shareYourInviteCode => 'شارك رمز الدعوة الخاص بك';
 
   @override
-  String get invite => 'دعوة';
+  String get invite => 'يدعو';
 
   @override
   String get favorites => 'المفضلة';
 
   @override
-  String get home => 'المنزل';
+  String get home => 'بيت';
 
   @override
-  String get work => 'العمل';
+  String get work => 'عمل';
 
   @override
-  String get addMore => 'إضافة المزيد';
+  String get addMore => 'أضف المزيد';
 
   @override
-  String get tapAddAddress => 'اضغط لإضافة عنوان';
+  String get tapAddAddress => 'انقر لإضافة عنوان';
 
   @override
   String get newaddress => 'عنوان جديد';
 
   @override
-  String get save => 'حفظ';
+  String get save => 'يحفظ';
 
   @override
-  String get delete => 'حذف';
+  String get delete => 'يمسح';
 
   @override
   String get deleteAddress => 'هل أنت متأكد أنك تريد حذف هذا العنوان؟';
 
   @override
-  String get deleteAddressSubText => 'سيتم حذفه من جميع الخدمات';
+  String get deleteAddressSubText => 'سيتم إزالته من جميع الخدمات';
 
   @override
-  String get deleteSos => 'حذف رقم الطوارئ';
+  String get deleteSos => 'حذف SOS';
 
   @override
-  String get deleteContact => 'هل أنت متأكد من حذف جهة الاتصال هذه؟';
+  String get deleteContact => 'هل أنت متأكد من حذف هذه جهة الاتصال؟';
 
   @override
   String get yes => 'نعم';
@@ -408,22 +410,22 @@ class AppLocalizationsAr extends AppLocalizations {
   String get addContact => 'إضافة جهة اتصال';
 
   @override
-  String get nososContacts => 'لا توجد جهات طوارئ مضافة.';
+  String get nososContacts => 'لم يتم العثور على جهات اتصال SOS.';
 
   @override
-  String get addContactsText => 'أضف جهات اتصال الآن لضمان سلامتك.';
+  String get addContactsText => 'أضف جهات الاتصال الآن لضمان سلامتك.';
 
   @override
-  String get selectContact => 'اختر جهة الاتصال';
+  String get selectContact => 'حدد جهة الاتصال';
 
   @override
-  String get adminChat => 'محادثة الإدارة';
+  String get adminChat => 'دردشة المسؤول';
 
   @override
   String get typeMessage => 'اكتب رسالة...';
 
   @override
-  String get chooseComplaint => 'اختر نوع الشكوى';
+  String get chooseComplaint => 'اختر شكواك';
 
   @override
   String get complaintdetails => 'تفاصيل الشكوى';
@@ -432,36 +434,36 @@ class AppLocalizationsAr extends AppLocalizations {
   String get writeYourComplaint => 'اكتب شكواك هنا...';
 
   @override
-  String get submit => 'إرسال';
+  String get submit => 'يُقدِّم';
 
   @override
-  String get complaintLength => 'يجب أن تحتوي الشكوى على * أحرف على الأقل.';
+  String get complaintLength => 'يجب أن تتكون الشكوى من * حرف على الأقل.';
 
   @override
-  String get complaintSubmited => 'تم إرسال الشكوى بنجاح';
+  String get complaintSubmited => 'تم تقديم الشكوى';
 
   @override
-  String get settings => 'الإعدادات';
+  String get settings => 'إعدادات';
 
   @override
-  String get comeBackSoon => 'ننتظرك قريباً!';
+  String get comeBackSoon => 'تعالوا قريبا!';
 
   @override
   String get logoutText => 'هل أنت متأكد أنك تريد تسجيل الخروج؟';
 
   @override
   String get deleteText =>
-      'سيؤدي حذف حسابك إلى إزالة جميع بياناتك الشخصية. هل ترغب بالمتابعة؟';
+      'سيؤدي حذف حسابك إلى حذف جميع بياناتك الشخصية. هل ترغب بالمتابعة؟';
 
   @override
   String get deleteDetailText =>
-      'تم استلام طلبك لحذف الحساب. سيتم إيقاف تنشيطه خلال * ساعة، وسيُحذف نهائياً بعد ** يوم، مع حذف أي رصيد أو عروض أو مكافآت غير مستخدمة.';
+      'لقد تلقينا طلبك بحذف حسابك. سيتم إلغاء تفعيله خلال ** ساعة، وسيتم حذفه نهائيًا بعد *** يوم، مع أي رصيد أو عروض ترويجية أو مكافآت غير مستخدمة.';
 
   @override
-  String get noHistory => 'لا يوجد سجل حالياً.';
+  String get noHistory => 'لم يتم العثور على أي تاريخ.';
 
   @override
-  String get noHistoryText => 'قم بإجراء حجز جديد ليظهر هنا.';
+  String get noHistoryText => 'قم بإجراء حجز جديد لعرضه هنا.';
 
   @override
   String get pickupAddress => 'عنوان الاستلام';
@@ -470,49 +472,50 @@ class AppLocalizationsAr extends AppLocalizations {
   String get destinationAddress => 'عنوان الوجهة';
 
   @override
-  String get addStopAddress => 'إضافة محطة توقف';
+  String get addStopAddress => 'إضافة عنوان المحطة';
 
   @override
   String get selectFromMap => 'اختر من الخريطة';
 
   @override
-  String get searching => 'جارٍ البحث...';
+  String get searching => 'جاري البحث...';
 
   @override
-  String get searchResult => 'نتائج البحث';
+  String get searchResult => 'نتيجة البحث';
 
   @override
-  String get minimumSearchLength => 'الرجاء إدخال * أحرف على الأقل للبحث';
+  String get minimumSearchLength =>
+      'الرجاء إدخال الحد الأدنى من الأحرف * للبحث';
 
   @override
-  String get searchPlaces => 'البحث عن المواقع';
+  String get searchPlaces => 'البحث عن الأماكن';
 
   @override
   String get confirmLocation => 'تأكيد الموقع';
 
   @override
-  String get recentSearchHistory => 'سجل البحث الأخير';
+  String get recentSearchHistory => 'سجل البحث';
 
   @override
-  String get receiverDetails => 'بيانات المستلم';
+  String get receiverDetails => 'تفاصيل المتلقي';
 
   @override
-  String get receiveMyself => 'سأستلم بنفسي';
+  String get receiveMyself => 'استقبل نفسي';
 
   @override
-  String get instructions => 'ملاحظات إضافية';
+  String get instructions => 'تعليمات';
 
   @override
-  String get optional => 'اختياري';
+  String get optional => 'خياري';
 
   @override
-  String get selectReceiver => 'اختر المستلم';
+  String get selectReceiver => 'حدد جهاز الاستقبال';
 
   @override
-  String get senderDetails => 'بيانات المرسل';
+  String get senderDetails => 'تفاصيل المرسل';
 
   @override
-  String get sendMyself => 'سأرسل بنفسي';
+  String get sendMyself => 'أرسل نفسي';
 
   @override
   String get onDemand => 'حسب الطلب';
@@ -521,19 +524,19 @@ class AppLocalizationsAr extends AppLocalizations {
   String get rideDetails => 'تفاصيل الرحلة';
 
   @override
-  String get preference => 'التفضيلات';
+  String get preference => 'حدد تفضيلاتك';
 
   @override
-  String get luggage => 'الأمتعة';
+  String get luggage => 'أمتعة السفر';
 
   @override
   String get pet => 'حيوان أليف';
 
   @override
-  String get rideNow => 'ابدأ الرحلة الآن';
+  String get rideNow => 'ركوب الآن';
 
   @override
-  String get coupon => 'كوبون';
+  String get coupon => 'قسيمة';
 
   @override
   String get now => 'الآن';
@@ -545,48 +548,48 @@ class AppLocalizationsAr extends AppLocalizations {
   String get scheduleRide => 'جدولة الرحلة';
 
   @override
-  String get applyCoupon => 'تطبيق الكوبون';
+  String get applyCoupon => 'تطبيق القسيمة';
 
   @override
-  String get applyCouponText => 'استخدم الكوبون للحصول على الخصم';
+  String get applyCouponText => 'استخدم قسيمة الخصم للحصول على العرض';
 
   @override
-  String get couponInvalid => 'الرجاء إدخال كوبون صالح';
+  String get couponInvalid => 'الرجاء إدخال رمز قسيمة صالح';
 
   @override
-  String get choosePayment => 'اختر طريقة الدفع';
+  String get choosePayment => 'اختر الدفع';
 
   @override
-  String get rideFare => 'أجرة الرحلة';
+  String get rideFare => 'أجرة الركوب';
 
   @override
-  String get estimateFare => 'الأجرة التقديرية الإجمالية';
+  String get estimateFare => 'إجمالي الأجرة التقديرية.';
 
   @override
   String get infoText =>
-      'قد يتغير السعر في حال تعديل موقع الاستلام أو التسليم.';
+      'قد يتغير السعر إذا قمت بتعديل موقع الاستلام أو التسليم.';
 
   @override
   String get infoWaitingPrice =>
-      'تُطبق رسوم انتظار قدرها * لكل دقيقة بعد انتظار السائق لمدة * دقائق.';
+      'يتم تطبيق رسوم انتظار قدرها *** لكل دقيقة بعد انتظار السائق لمدة * دقيقة.';
 
   @override
-  String get pickupLocation => 'موقع الاستلام';
+  String get pickupLocation => 'مكان الاستلام';
 
   @override
-  String get dropLocation => 'موقع التوصيل';
+  String get dropLocation => 'موقع الإنزال';
 
   @override
-  String get offerYourFare => 'قدّم عرضك للأجرة';
+  String get offerYourFare => 'عرض أجرة الخاص بك';
 
   @override
-  String get minimumRecommendedFare => 'الحد الأدنى المقترح للأجرة *';
+  String get minimumRecommendedFare => 'الحد الأدنى للأجرة الموصى بها ***';
 
   @override
   String get createRequest => 'إنشاء طلب';
 
   @override
-  String get discoverYourDriver => 'Discover your Driver';
+  String get discoverYourDriver => 'اكتشف سائقك';
 
   @override
   String get bookingDetails => 'تفاصيل الحجز';
@@ -598,150 +601,150 @@ class AppLocalizationsAr extends AppLocalizations {
   String get cancelRide => 'إلغاء الرحلة';
 
   @override
-  String get cancelRideText => 'هل ترغب في إلغاء هذه الرحلة؟';
+  String get cancelRideText => 'هل تريد إلغاء هذه الرحلة؟';
 
   @override
-  String get lookingNearbyDrivers => 'جارٍ البحث عن سائقين بالقرب منك';
+  String get lookingNearbyDrivers => 'أبحث عن سائقين قريبين';
 
   @override
   String get currentFare => 'الأجرة الحالية';
 
   @override
-  String get onTheWay => 'السائق في الطريق إليك';
+  String get onTheWay => 'السائق في الطريق';
 
   @override
-  String get driverArriveText => 'سيصل السائق خلال ** دقيقة، استعد للانطلاق.';
+  String get driverArriveText =>
+      'سيصل السائق خلال ** دقيقة ليكون جاهزًا لاستقباله.';
 
   @override
-  String get rideCharge => 'تكلفة الرحلة';
+  String get rideCharge => 'رسوم الركوب';
 
   @override
-  String get selectCancelReason => 'يرجى تحديد سبب الإلغاء';
+  String get selectCancelReason => 'الرجاء تحديد سبب الإلغاء';
 
   @override
-  String get driverArrived => 'السائق وصل';
+  String get driverArrived => 'وصل السائق';
 
   @override
   String get arrivedMessage =>
-      'بعد * دقيقة، تُضاف رسوم انتظار إضافية قدرها * لكل دقيقة.';
+      'بعد * دقيقة، يتم تطبيق رسوم إضافية قدرها ***/دقيقة مقابل وقت الانتظار الإضافي.';
 
   @override
-  String get reachingDestination => 'جارٍ الوصول إلى الوجهة';
+  String get reachingDestination => 'الوصول إلى الوجهة';
 
   @override
-  String get leaveFeedback => 'أضف تقييمك للخدمة';
+  String get leaveFeedback => 'اترك تقييم للخدمة';
 
   @override
   String get lastRideReview => 'كيف كانت رحلتك الأخيرة مع *؟';
 
   @override
-  String get addReview => 'إضافة تقييم';
+  String get addReview => 'إضافة مراجعة';
 
   @override
   String get loadingUnloadingTimeInfo =>
-      '** دقيقة مجانية للتحميل والتفريغ مشمولة في السعر';
+      'مجانًا ** دقائق من وقت التحميل والتفريغ متضمنة';
 
   @override
   String get tripFare => 'أجرة الرحلة';
 
   @override
-  String get amountPayable => 'المبلغ المستحق الدفع';
+  String get amountPayable => 'المبلغ المستحق';
 
   @override
-  String get goodsType => 'نوع البضاعة';
+  String get goodsType => 'نوع البضائع';
 
   @override
-  String get selectGoodsType => 'اختر نوع البضاعة';
+  String get selectGoodsType => 'حدد نوع البضائع';
 
   @override
-  String get sender => 'المرسل';
+  String get sender => 'مرسل';
 
   @override
-  String get receiver => 'المستلم';
+  String get receiver => 'المتلقي';
 
   @override
   String get payAt => 'ادفع عند';
 
   @override
-  String get changeLower => 'تغيير';
+  String get changeLower => 'يتغير';
 
   @override
-  String get readBeforeBooking => 'يرجى القراءة قبل الحجز';
+  String get readBeforeBooking => 'اقرأ قبل الحجز';
 
   @override
   String get deliveryInfoLoadingTime =>
-      'الأجرة تشمل ** دقيقة مجانية للتحميل والتفريغ.';
+      'تتضمن الأجرة ** دقائق مجانية للتحميل والتفريغ.';
 
   @override
   String get deliveryInfoLoadingCharged =>
-      'سيتم احتساب رسوم إضافية بمقدار * لكل دقيقة تحميل أو تفريغ بعد الوقت المجاني.';
+      'سيتم فرض رسوم إضافية على وقت التحميل أو التفريغ بمعدل *** لكل دقيقة.';
 
   @override
   String get deliveryInfoFare =>
-      'قد تتغير الأجرة في حال تعديل المسار أو الموقع.';
+      'قد تختلف الأجرة في حالة وجود تغييرات في المسار أو الموقع.';
 
   @override
   String get deliveryInfoParkingCharge =>
-      'العميل يتحمل أي رسوم مواقف يتم فرضها.';
+      'العملاء هم المسؤولون عن أي رسوم وقوف السيارات التي يتكبدونها.';
 
   @override
-  String get deliveryInfoOverloading => 'يُمنع تماماً التحميل الزائد.';
+  String get deliveryInfoOverloading => 'يُمنع منعًا باتًا التحميل الزائد.';
 
   @override
-  String get loose => 'غير مغلف';
+  String get loose => 'مرتخي';
 
   @override
   String get qty => 'الكمية';
 
   @override
-  String get remove => 'إزالة';
+  String get remove => 'يزيل';
 
   @override
-  String get notifyAdmin => 'إشعار الإدارة';
+  String get notifyAdmin => 'إخطار المسؤول';
 
   @override
-  String get sosContacts => 'جهات اتصال الطوارئ';
+  String get sosContacts => 'جهات اتصال SOS';
 
   @override
   String get sosRideEmergencyText =>
-      'بالنقر على هذا الزر سيتم إشعار الإدارة بأنك في حالة طارئة.';
+      'بالنقر على هذا الزر سيتم إخطار المشرف بأنك في حالة طوارئ.';
 
   @override
-  String get notifiedSuccessfully => 'تم إرسال الإشعار بنجاح.';
+  String get notifiedSuccessfully => 'تم الإخطار بنجاح.';
 
   @override
-  String get view => 'عرض';
+  String get view => 'منظر';
 
   @override
-  String get onGoingRides => 'الرحلات الجارية';
+  String get onGoingRides => 'رحلات مستمرة';
 
   @override
-  String get arrived => 'تم الوصول';
+  String get arrived => 'وصل';
 
   @override
   String get tripStarted => 'بدأت الرحلة';
 
   @override
-  String get loadShipmentProof => 'إثبات تحميل الشحنة';
+  String get loadShipmentProof => 'إثبات شحن الحمولة';
 
   @override
-  String get uploadShipmentProof => 'رفع إثبات الشحنة';
+  String get uploadShipmentProof => 'تحميل إثبات الشحن';
 
   @override
-  String get complaintListEmpty => 'لا توجد شكاوى حالياً.';
+  String get complaintListEmpty => 'لا توجد قائمة شكاوى متاحة.';
 
   @override
-  String get enterTheCredentials => 'الرجاء إدخال بيانات الدخول';
+  String get enterTheCredentials => 'الرجاء إدخال بيانات الاعتماد';
 
   @override
-  String get failedUpdateDetails => 'فشل في تحديث البيانات';
+  String get failedUpdateDetails => 'فشل في تحديث التفاصيل';
 
   @override
   String get clearNotifications => 'مسح الإشعارات';
 
   @override
-  String get clearNotificationsText =>
-      'هل أنت متأكد أنك تريد مسح جميع الإشعارات؟';
+  String get clearNotificationsText => 'هل أنت متأكد من مسح كافة الإشعارات؟';
 
   @override
   String get clearAll => 'مسح الكل';
@@ -759,16 +762,16 @@ class AppLocalizationsAr extends AppLocalizations {
   String get oneWayTrip => 'رحلة ذهاب فقط';
 
   @override
-  String get noDataAvailable => 'لا توجد بيانات حالياً';
+  String get noDataAvailable => 'لا توجد بيانات متاحة.';
 
   @override
   String get mapSettings => 'إعدادات الخريطة';
 
   @override
-  String get googleMap => 'خرائط جوجل';
+  String get googleMap => 'خريطة جوجل';
 
   @override
-  String get openStreet => 'خريطة مفتوحة';
+  String get openStreet => 'شارع مفتوح';
 
   @override
   String get paymentMethods => 'طرق الدفع';
@@ -778,54 +781,53 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get selectCardText =>
-      'يمكنك اختيار البطاقات التي ترغب بعرضها في قائمة الدفع بالفاتورة.';
+      'يمكنك اختيار أرقام البطاقات التي تريد عرضها في قائمة طرق الدفع الموجودة على الفاتورة.';
 
   @override
-  String get addCard => 'إضافة بطاقة جديدة';
+  String get addCard => 'إضافة بطاقة';
 
   @override
-  String get success => 'تم بنجاح';
+  String get success => 'نجاح';
 
   @override
-  String get okText => 'موافق';
+  String get okText => 'نعم';
 
   @override
   String get referralCodeCopy => 'تم نسخ رمز الإحالة إلى الحافظة!';
 
   @override
   String get referralInviteText =>
-      'انضم لي في *! استخدم رمز الدعوة الخاص بي *** لتسهيل رحلتك';
+      'انضم إليّ على **! باستخدام رمز الدعوة الخاص بي **** لتسهيل رحلتك';
 
   @override
-  String get rideLater => 'رحلة لاحقاً';
+  String get rideLater => 'ركوب في وقت لاحق';
 
   @override
-  String get rideLaterCancelText =>
-      'هل أنت متأكد أنك تريد إلغاء هذه الرحلة المجدولة؟';
+  String get rideLaterCancelText => 'هل أنت متأكد أنك تريد إلغاء هذه الرحلة؟';
 
   @override
-  String get updateSuccess => 'تم تحديث البيانات بنجاح';
+  String get updateSuccess => 'تم تحديث التفاصيل بنجاح';
 
   @override
-  String get updateText => 'تحديث *';
+  String get updateText => 'تحديث ***';
 
   @override
   String get paymentSuccess => 'تم الدفع بنجاح!';
 
   @override
-  String get paymentFailed => 'فشل في عملية الدفع!';
+  String get paymentFailed => 'فشل الدفع!';
 
   @override
-  String get paymenyHistoryEmpty => 'لا يوجد سجل مدفوعات حتى الآن';
+  String get paymenyHistoryEmpty => 'لا يوجد سجل للدفع حتى الآن.';
 
   @override
-  String get paymenyHistoryEmptyText => 'ابدأ رحلتك الأولى اليوم!';
+  String get paymenyHistoryEmptyText => 'ابدأ رحلتك بحجز رحلة اليوم!';
 
   @override
-  String get cameraText => 'الكاميرا';
+  String get cameraText => 'آلة تصوير';
 
   @override
-  String get galleryText => 'المعرض';
+  String get galleryText => 'معرض الصور';
 
   @override
   String get male => 'ذكر';
@@ -834,7 +836,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get female => 'أنثى';
 
   @override
-  String get preferNotSay => 'أفضل عدم الإفصاح';
+  String get preferNotSay => 'أفضل عدم القول';
 
   @override
   String get user => 'مستخدم';
@@ -843,49 +845,50 @@ class AppLocalizationsAr extends AppLocalizations {
   String get driver => 'سائق';
 
   @override
-  String get noRidesFound => 'لم يتم العثور على أي رحلات';
+  String get noRidesFound => 'لم يتم العثور على رحلات';
 
   @override
-  String get accepted => 'تم القبول';
+  String get accepted => 'مقبول';
 
   @override
   String get done => 'منتهي';
 
   @override
-  String get exclusiveOffers => 'عروض خاصة';
+  String get exclusiveOffers => 'عروض حصرية';
 
   @override
-  String get pleaseSelectReceiver => 'يرجى تحديد المستلم';
+  String get pleaseSelectReceiver => 'الرجاء تحديد المستقبل';
 
   @override
-  String get pleaseEnterQuantity => 'يرجى إدخال الكمية';
+  String get pleaseEnterQuantity => 'الرجاء إدخال الكمية';
 
   @override
-  String get driverArrivedLocation => 'وصل السائق إلى موقعك';
+  String get driverArrivedLocation => 'وصل السائق إلى الموقع';
 
   @override
-  String get reachingDestinationInMinutes => 'سيصل إلى الوجهة خلال *';
+  String get reachingDestinationInMinutes => 'الوصول إلى الوجهة في ***';
 
   @override
-  String get noDriverFound => 'لم يتم العثور على سائقين حالياً، حاول لاحقاً.';
+  String get noDriverFound =>
+      'لم يتم العثور على برامج تشغيل. حاول مرة أخرى لاحقًا.';
 
   @override
-  String get accept => 'قبول';
+  String get accept => 'يقبل';
 
   @override
-  String get reject => 'رفض';
+  String get reject => 'يرفض';
 
   @override
-  String get availableDrivers => 'السائقون المتاحون';
+  String get availableDrivers => 'السائقين المتاحين';
 
   @override
-  String get offeredRideFare => 'الأجرة المقترحة للرحلة *';
+  String get offeredRideFare => 'أجرة الرحلة المعروضة ***';
 
   @override
-  String get pleaseSelectCredentials => 'يرجى تحديد بيانات الاعتماد';
+  String get pleaseSelectCredentials => 'الرجاء تحديد بيانات الاعتماد';
 
   @override
-  String get pleaseGiveRatings => 'يرجى وضع تقييمك';
+  String get pleaseGiveRatings => 'يرجى إعطاء التقييمات';
 
   @override
   String get rideCancelled => 'تم إلغاء الرحلة';
@@ -900,24 +903,24 @@ class AppLocalizationsAr extends AppLocalizations {
   String get paymentMethod => 'طريقة الدفع';
 
   @override
-  String get tax => 'الضريبة';
+  String get tax => 'ضريبة';
 
   @override
-  String get adminCommission => 'عمولة الإدارة';
+  String get adminCommission => 'لجنة الإدارة';
 
   @override
-  String get total => 'الإجمالي';
+  String get total => 'المجموع';
 
   @override
-  String get back => 'رجوع';
+  String get back => 'خلف';
 
   @override
   String get minimumRideFareError =>
-      'يجب أن تكون الأجرة المعروضة أعلى من الحد الأدنى للأجرة.';
+      'يجب أن تكون أجرة الرحلة المعروضة أكبر من الحد الأدنى للأجرة.';
 
   @override
   String get maximumRideFareError =>
-      'يجب أن تكون الأجرة المعروضة أقل من الحد الأعلى للأجرة.';
+      'يجب أن تكون أجرة الرحلة المعروضة أقل من الحد الأقصى للأجرة.';
 
   @override
   String get ratings => 'التقييمات';
@@ -926,76 +929,76 @@ class AppLocalizationsAr extends AppLocalizations {
   String get totalRides => 'إجمالي الرحلات';
 
   @override
-  String get others => 'أخرى';
+  String get others => 'آحرون';
 
   @override
-  String get national => 'محلي';
+  String get national => 'وطني';
 
   @override
-  String get normal => 'عادي';
+  String get normal => 'طبيعي';
 
   @override
-  String get openBody => 'هيكل مفتوح';
+  String get openBody => 'الجسم المفتوح';
 
   @override
-  String get packBody => 'هيكل مغلق';
+  String get packBody => 'جسم العبوة';
 
   @override
-  String get capacity => 'الحمولة';
+  String get capacity => 'سعة';
 
   @override
-  String get capacityContent => 'حدد عدد الركاب أو سعة التحميل المطلوبة';
+  String get capacityContent => 'يمكنك تحديد نطاق الركاب المطلوب هنا';
 
   @override
-  String get category => 'الفئة';
+  String get category => 'فئة';
 
   @override
-  String get categoryContent => 'اختر فئة المركبة المفضلة لديك';
+  String get categoryContent => 'حدد فئة سيارتك المفضلة أدناه';
 
   @override
-  String get permit => 'التصريح';
+  String get permit => 'يسمح';
 
   @override
-  String get permitContent => 'اختر نوع التصريح المناسب أدناه';
+  String get permitContent => 'حدد التصريح المناسب أدناه';
 
   @override
-  String get bodyType => 'نوع الهيكل';
+  String get bodyType => 'نوع الجسم';
 
   @override
-  String get bodyTypeContent => 'اختر نوع الهيكل المناسب لمركبتك';
+  String get bodyTypeContent => 'اختر نوع الجسم المفضل لديك أدناه';
 
   @override
-  String get applyFilter => 'تطبيق الفلاتر';
+  String get applyFilter => 'تطبيق المرشحات';
 
   @override
-  String get pleaseSelectVehicle => 'يرجى اختيار المركبة';
+  String get pleaseSelectVehicle => 'الرجاء تحديد السيارة';
 
   @override
-  String get notValidPhoneNumber => 'رقم الجوال الذي أدخلته غير صالح';
+  String get notValidPhoneNumber => 'رقم الهاتف المقدم غير صالح';
 
   @override
-  String get otpSendTo => 'تم إرسال رمز التحقق إلى *';
+  String get otpSendTo => 'إرسال OTP إلى ***';
 
   @override
-  String get otpForLogin => 'رمز تحقق لتسجيل الدخول';
+  String get otpForLogin => 'كلمة مرور لمرة واحدة لتسجيل الدخول';
 
   @override
-  String get testOtp => 'سجّل دخولك باستخدام رمز التحقق التجريبي *';
+  String get testOtp => 'قم بتسجيل الدخول إلى حسابك باستخدام OTP الاختباري ***';
 
   @override
-  String get enterValidOtp => 'يرجى إدخال رمز تحقق صحيح';
+  String get enterValidOtp => 'الرجاء إدخال كلمة مرور صالحة لمرة واحدة';
 
   @override
   String get verifySuccess => 'تم التحقق بنجاح';
 
   @override
-  String get pleaseEnterOtp => 'يرجى إدخال رمز التحقق (OTP)';
+  String get pleaseEnterOtp => 'الرجاء إدخال OTP';
 
   @override
-  String get selectProfileImage => 'اختر صورة الملف الشخصي';
+  String get selectProfileImage => 'حدد صورة الملف الشخصي';
 
   @override
-  String get pleaseEnterRefferalCode => 'يرجى إدخال كود الإحالة';
+  String get pleaseEnterRefferalCode => 'الرجاء إدخال رمز الإحالة';
 
   @override
   String get loginSuccess => 'تم تسجيل الدخول بنجاح';
@@ -1004,44 +1007,44 @@ class AppLocalizationsAr extends AppLocalizations {
   String get passCheck => 'تم تغيير كلمة المرور بنجاح';
 
   @override
-  String get minComplaintText => 'يجب أن تحتوي الشكوى على أكثر من * أحرف';
+  String get minComplaintText => 'يجب أن يكون نص الشكوى أكثر من *** حرفًا';
 
   @override
-  String get registerSuccess => 'تم إنشاء الحساب بنجاح';
+  String get registerSuccess => 'تم التسجيل بنجاح';
 
   @override
   String get noInternetConnection => 'لا يوجد اتصال بالإنترنت';
 
   @override
-  String get noInternetCheckContent => 'يرجى التحقق من إعدادات الشبكة لديك';
+  String get noInternetCheckContent => 'يرجى التحقق من إعدادات الإنترنت لديك';
 
   @override
-  String get recentSearchRoutes => 'آخر مسارات البحث';
+  String get recentSearchRoutes => 'طرق البحث';
 
   @override
-  String get delivery => 'التوصيل';
+  String get delivery => 'توصيل';
 
   @override
   String get selectPackage => 'اختر الباقة';
 
   @override
-  String get pleaseSelectGoodsType => 'يرجى تحديد نوع البضاعة';
+  String get pleaseSelectGoodsType => 'الرجاء تحديد نوع البضائع';
 
   @override
-  String get enterCardDetails => 'أدخل بيانات البطاقة';
+  String get enterCardDetails => 'أدخل تفاصيل البطاقة';
 
   @override
   String get saveCard => 'حفظ البطاقة';
 
   @override
-  String get selectedPackage => 'الباقة المختارة';
+  String get selectedPackage => 'الحزمة المختارة';
 
   @override
   String get otherReason => 'سبب آخر';
 
   @override
   String get locationAccess =>
-      'يجب منح إذن الوصول للموقع لتشغيل التطبيق، يرجى تفعيله من الإعدادات ثم الضغط على تم.';
+      'يلزم الوصول إلى الموقع لتشغيل التطبيق، يرجى تمكينه في الإعدادات والنقر فوق تم';
 
   @override
   String get openSetting => 'فتح الإعدادات';
@@ -1050,71 +1053,72 @@ class AppLocalizationsAr extends AppLocalizations {
   String get additional => 'إضافي';
 
   @override
-  String get baseDistancePrice => 'السعر الأساسي للمسافة';
+  String get baseDistancePrice => 'سعر المسافة الأساسية';
 
   @override
-  String get locationPermissionAllow => 'اسمح للتطبيق بالوصول إلى موقعك الحالي';
+  String get locationPermissionAllow =>
+      'السماح بإذن الموقع للحصول على موقعك الحالي';
 
   @override
-  String get addStop => 'إضافة محطة توقف';
+  String get addStop => 'إضافة توقف';
 
   @override
-  String get outStation => 'رحلات خارج المدينة';
+  String get outStation => 'محطة خارجية';
 
   @override
-  String get pleaseSelectReturnDate => 'يرجى اختيار تاريخ العودة';
+  String get pleaseSelectReturnDate => 'الرجاء تحديد تاريخ العودة';
 
   @override
-  String get getDropOff => 'إنزال';
+  String get getDropOff => 'انزل';
 
   @override
   String get roundTrip => 'رحلة ذهاب وعودة';
 
   @override
-  String get keepTheCarTillReturn => 'احتفظ بالمركبة حتى العودة';
+  String get keepTheCarTillReturn => 'احتفظ بالسيارة حتى العودة';
 
   @override
-  String get leaveOn => 'المغادرة في';
+  String get leaveOn => 'اتركه مفتوحا';
 
   @override
-  String get returnBy => 'العودة في';
+  String get returnBy => 'العودة بواسطة';
 
   @override
-  String get selectDate => 'اختر التاريخ';
+  String get selectDate => 'حدد التاريخ';
 
   @override
-  String get offeredRide => 'رحلة مقترحة';
+  String get offeredRide => 'رحلة معروضة';
 
   @override
   String get myOfferedFare => 'الأجرة التي عرضتها';
 
   @override
-  String get assigned => 'مُعيَّن';
+  String get assigned => 'مُكَلَّف';
 
   @override
-  String get unAssigned => 'غير مُعيَّن';
+  String get unAssigned => 'غير مخصص';
 
   @override
-  String get biddingLimitCrossed => 'تم تجاوز الحد المسموح للمزايدة';
+  String get biddingLimitCrossed => 'تم تجاوز حد المزايدة';
 
   @override
-  String get chooseAdriver => 'اختر سائقاً';
+  String get chooseAdriver => 'اختر سائقًا';
 
   @override
   String get noBidRideContent =>
-      'لا توجد عروض حالياً لرحلتك، نبحث عن سائقين قريبين — يرجى المحاولة لاحقاً!';
+      'لا توجد عروض أسعار لرحلتك حتى الآن. نبحث عن سائقين - يُرجى معاودة الاتصال قريبًا!';
 
   @override
-  String get decline => 'رفض';
+  String get decline => 'انخفاض';
 
   @override
-  String get welcomeUser => 'مرحباً بك!';
+  String get welcomeUser => 'مرحباً بك، المستخدم';
 
   @override
-  String get minTime => 'الحد الأدنى من الوقت';
+  String get minTime => 'الحد الأدنى';
 
   @override
-  String get pleaseEnterTheValidData => 'يرجى إدخال بيانات صحيحة';
+  String get pleaseEnterTheValidData => 'الرجاء إدخال البيانات الصحيحة';
 
   @override
   String get registeredSuccessfully => 'تم التسجيل بنجاح';
@@ -1123,38 +1127,39 @@ class AppLocalizationsAr extends AppLocalizations {
   String get lowWalletBalance => 'رصيد المحفظة منخفض';
 
   @override
-  String get getYourCurrentLocation => 'اسمح للتطبيق بالحصول على موقعك الحالي';
+  String get getYourCurrentLocation =>
+      'السماح بإذن الموقع للحصول على موقعك الحالي';
 
   @override
-  String get serviceNotAvailable => 'الخدمة غير متاحة في هذا الموقع حالياً';
+  String get serviceNotAvailable => 'الخدمة غير متاحة لهذا الموقع';
 
   @override
   String get cancellationFee => 'رسوم الإلغاء';
 
   @override
-  String get ride => 'رحلة';
+  String get ride => 'يركب';
 
   @override
   String get additionalCharges => 'رسوم إضافية';
 
   @override
-  String get showAppreciationTip => 'أظهر تقديرك بإكرامية!';
+  String get showAppreciationTip => 'أظهر التقدير بإكرامية!';
 
   @override
-  String get addTip => 'أضف إكرامية';
+  String get addTip => 'أضف نصيحة';
 
   @override
-  String get tips => 'الإكراميات';
+  String get tips => 'نصائح';
 
   @override
   String get waitingChargeText =>
-      '* تُطبق رسوم إضافية لكل دقيقة انتظار بعد الوقت المحدد.';
+      '* يتم تطبيق رسوم إضافية على الدقيقة الواحدة مقابل وقت الانتظار الإضافي.';
 
   @override
-  String get addTipError => 'يرجى إدخال قيمة الإكرامية';
+  String get addTipError => 'يرجى ملء حقل النصائح';
 
   @override
-  String get pickMeHere => 'استقبلني هنا';
+  String get pickMeHere => 'اخترني هنا';
 
   @override
   String get payNow => 'ادفع الآن';
@@ -1163,390 +1168,388 @@ class AppLocalizationsAr extends AppLocalizations {
   String get paid => 'مدفوع';
 
   @override
-  String get supportTicket => 'Support Ticket';
+  String get supportTicket => 'تذكرة الدعم';
 
   @override
-  String get cardDetails => 'Card Details';
+  String get cardDetails => 'تفاصيل البطاقة';
 
   @override
-  String get cards => 'Cards';
+  String get cards => 'بطاقات';
 
   @override
-  String get createTicket => 'Create Ticket';
+  String get createTicket => 'إنشاء تذكرة';
 
   @override
-  String get title => 'Title';
+  String get title => 'عنوان';
 
   @override
-  String get selectTitle => 'Select Title';
+  String get selectTitle => 'حدد العنوان';
 
   @override
-  String get selectArea => 'Select Area';
+  String get selectArea => 'حدد المنطقة';
 
   @override
-  String get description => 'Description';
+  String get description => 'وصف';
 
   @override
-  String get enterDescription => 'Enter Description';
+  String get enterDescription => 'أدخل الوصف';
 
   @override
-  String get ticketId => 'Ticket ID :';
+  String get ticketId => 'معرف التذكرة :';
 
   @override
-  String get titleColonText => 'Title :';
+  String get titleColonText => 'عنوان :';
 
   @override
-  String get assignTo => 'Assigned to :';
+  String get assignTo => 'مُعين إلى:';
 
   @override
-  String get requestType => 'Request Type';
+  String get requestType => 'نوع الطلب';
 
   @override
-  String get closed => 'Closed';
+  String get closed => 'مغلق';
 
   @override
-  String get opened => 'Opened';
+  String get opened => 'مفتوح';
 
   @override
-  String get acknowledged => 'Acknowledged';
+  String get acknowledged => 'مُقر به';
 
   @override
-  String get viewTicket => 'View Ticket :';
+  String get viewTicket => 'عرض التذكرة :';
 
   @override
-  String get deleteCardText => 'Are you sure, you want to delete this card ?';
+  String get deleteCardText => 'هل أنت متأكد أنك تريد حذف هذه البطاقة؟';
 
   @override
-  String get supportType => 'Support Type';
+  String get supportType => 'نوع الدعم';
 
   @override
-  String get notAssigned => 'Not Assigned';
+  String get notAssigned => 'غير مخصص';
 
   @override
-  String get attachments => 'Attachments : ';
+  String get attachments => 'المرفقات :';
 
   @override
-  String get send => 'Send ';
+  String get send => 'يرسل ';
 
   @override
-  String get fillTheMessageField => 'Please Fill the message field';
+  String get fillTheMessageField => 'الرجاء ملء حقل الرسالة';
 
   @override
-  String get supportEmptyText => 'No support tickets found.';
+  String get supportEmptyText => 'لم يتم العثور على تذاكر الدعم.';
 
   @override
-  String get supportEmptySubText => 'Need help? Create a new support request.';
+  String get supportEmptySubText => 'هل تحتاج مساعدة؟ أنشئ طلب دعم جديد.';
 
   @override
-  String get replyText => 'Reply';
+  String get replyText => 'رد';
 
   @override
-  String get messageText => 'Message';
+  String get messageText => 'رسالة';
 
   @override
-  String get enterMessage => 'Enter Message...';
+  String get enterMessage => 'أدخل الرسالة...';
 
   @override
-  String get fileLimitReached => 'File Limit Reached';
+  String get fileLimitReached => 'تم الوصول إلى الحد الأقصى للملفات';
 
   @override
-  String get messageSuccessText => 'Reply Message Sent Successfully';
+  String get messageSuccessText => 'تم إرسال رسالة الرد بنجاح';
 
   @override
-  String get noMessagesHere => 'No Messages Here';
+  String get noMessagesHere => 'لا توجد رسائل هنا';
 
   @override
-  String get noAttachmentsText => 'No Attachments Here';
+  String get noAttachmentsText => 'لا يوجد مرفقات هنا';
 
   @override
-  String get uploadMaxFile => 'Upload File (Max: 8 Files)';
+  String get uploadMaxFile => 'تحميل الملف (الحد الأقصى: 8 ملفات)';
 
   @override
-  String get filesUploaded => 'File(s) Uploaded';
+  String get filesUploaded => 'الملفات التي تم تحميلها';
 
   @override
-  String get noVehicleTypes => 'No vehicle types available for this location';
+  String get noVehicleTypes => 'لا تتوفر أنواع المركبات لهذا الموقع';
 
   @override
-  String get alert => 'Alert';
+  String get alert => 'يُحذًِر';
 
   @override
-  String get fillTheRequiredField => 'Please Fill the required field';
+  String get fillTheRequiredField => 'الرجاء ملء الحقل المطلوب';
 
   @override
-  String get requestId => 'Request ID';
+  String get requestId => 'معرف الطلب';
 
   @override
-  String get ticketCreated => 'Ticket Created';
+  String get ticketCreated => 'تم إنشاء التذكرة';
 
   @override
-  String get admin => 'Admin';
+  String get admin => 'مسؤل';
 
   @override
-  String get reportIssues => 'Report Issue';
+  String get reportIssues => 'الإبلاغ عن المشكلة';
 
   @override
-  String get pending => 'Pending';
+  String get pending => 'قيد الانتظار';
 
   @override
-  String get permissionDeniedText => 'Permission denied';
+  String get permissionDeniedText => 'تم رفض الإذن';
 
   @override
-  String get colorText => 'Color';
+  String get colorText => 'لون';
 
   @override
-  String get savedCards => 'Saved Cards';
+  String get savedCards => 'البطاقات المحفوظة';
 
   @override
-  String get downloadInvoice => 'Download Invoice';
+  String get downloadInvoice => 'تنزيل الفاتورة';
 
   @override
-  String get addInstructions => 'Add Instructions';
+  String get addInstructions => 'إضافة التعليمات';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'واضح';
 
   @override
-  String get invoiceSendContent => 'Invoice send to your registered email';
+  String get invoiceSendContent => 'إرسال الفاتورة إلى بريدك الإلكتروني المسجل';
 
   @override
-  String get airportSurgefee => 'Airport Surge Fee';
+  String get airportSurgefee => 'رسوم زيادة المطار';
 
   @override
-  String get uploadFile => 'Upload File';
+  String get uploadFile => 'تحميل الملف';
 
   @override
-  String get searchByVehicleNumber => 'Search by vehicle number';
+  String get searchByVehicleNumber => 'البحث حسب رقم السيارة';
 
   @override
-  String get satellite => 'Satellite';
+  String get satellite => 'القمر الصناعي';
 
   @override
-  String get terrain => 'Terrain';
+  String get terrain => 'التضاريس';
 
   @override
-  String get hybrid => 'Hybrid';
+  String get hybrid => 'هجين';
 
   @override
-  String get refresh => 'Refresh';
+  String get refresh => 'ينعش';
 
   @override
-  String get maxDistanceTitle => 'Distance is too long';
+  String get maxDistanceTitle => 'المسافة طويلة جداً';
 
   @override
-  String get maxDistanceText =>
-      'Please make sure your route is within the limit.';
+  String get maxDistanceText => 'يرجى التأكد من أن مسارك يقع ضمن الحد الأقصى.';
 
   @override
-  String get changeRoute => 'Change Route';
+  String get changeRoute => 'تغيير المسار';
 
   @override
-  String get viewAll => 'View All';
+  String get viewAll => 'عرض الكل';
 
   @override
-  String get convertToOutstation =>
-      'Do you want to convert ride to Outstation?';
+  String get convertToOutstation => 'هل تريد تحويل الرحلة إلى خارج المدينة؟';
 
   @override
-  String get preferenceTotal => 'Preference Charges';
+  String get preferenceTotal => 'رسوم التفضيل';
 
   @override
-  String get preferenceNotAvailable => 'Preference Not Available';
+  String get preferenceNotAvailable => 'التفضيل غير متاح';
 
   @override
-  String get selectSeats => 'Select seats';
+  String get selectSeats => 'اختر المقاعد';
 
   @override
-  String get shareRide => 'Share ride';
+  String get shareRide => 'مشاركة الرحلة';
 
   @override
-  String get yourAccount => 'Your Account';
+  String get yourAccount => 'حسابك';
 
   @override
-  String get help => 'Help';
+  String get help => 'مساعدة';
 
   @override
-  String get benefits => 'Benefits';
+  String get benefits => 'فوائد';
 
   @override
   String get addProfilePhoto =>
-      'Add a Profile Photo so the driver can recognize you';
+      'أضف صورة للملف الشخصي — أضف صورة حتى يتمكن السائق من التعرف عليك';
 
   @override
-  String get smsVerification => 'We\'ll send an SMS code for verification';
+  String get smsVerification => 'سنرسل رمز SMS للتحقق';
 
   @override
-  String get tripId => 'Trip ID';
+  String get tripId => 'معرّف الرحلة';
 
   @override
-  String get next => 'Next';
+  String get next => 'التالي';
 
   @override
-  String get selectRecipientType => 'Select recipient type and enter details';
+  String get selectRecipientType => 'اختر نوع المستلم وأدخل التفاصيل';
 
   @override
-  String get yourReferralCode => 'Your Referral Code';
+  String get yourReferralCode => 'رمز الإحالة الخاص بك';
 
   @override
-  String get referAndEarn => 'Refer and Earn';
+  String get referAndEarn => 'قم بالإحالة واربح';
 
   @override
-  String get referralHistory => 'Referral History';
+  String get referralHistory => 'سجل الإحالات';
 
   @override
-  String get howItWorks => 'How It Works';
+  String get howItWorks => 'كيف يعمل';
 
   @override
-  String get addFromContact => 'Add from Contact';
+  String get addFromContact => 'أضف من جهة الاتصال';
 
   @override
-  String get addManually => 'Add Manually';
+  String get addManually => 'أضف يدويًا';
 
   @override
-  String get firstName => 'First Name';
+  String get firstName => 'الاسم الأول';
 
   @override
-  String get lastName => 'Last Name';
+  String get lastName => 'اسم العائلة';
 
   @override
-  String get phoneNumber => 'Phone Number';
+  String get phoneNumber => 'رقم الهاتف';
 
   @override
-  String get helpCenter => 'Help Center';
+  String get helpCenter => 'مركز المساعدة';
 
   @override
-  String get verify => 'Verify';
+  String get verify => 'تحقق';
 
   @override
-  String get copy => 'Copy';
+  String get copy => 'نسخ';
 
   @override
-  String get noReferralHistoryFound => 'No Referral History Found';
+  String get noReferralHistoryFound => 'لا يوجد تاريخ إحالات';
 
   @override
   String get referralContentIsUnavailablePleaseTryAgainLater =>
-      'Referral content is unavailable. Please try again later.';
+      'محتوى الإحالات غير متاح. يرجى المحاولة مرة أخرى لاحقًا.';
 
   @override
-  String get nameRequired => 'Name is required';
+  String get nameRequired => 'الاسم مطلوب';
 
   @override
-  String get phoneNumberRequired => 'Phone number is required';
+  String get phoneNumberRequired => 'رقم الهاتف مطلوب';
 
   @override
-  String get noCardsAdded => 'No Cards Added';
+  String get noCardsAdded => 'لا توجد بطاقات مضافه';
 
   @override
-  String get noWalletHistory => 'No Wallet History';
+  String get noWalletHistory => 'لا يوجد تاريخ محفظه';
 
   @override
   String get enterNameIdOrPassport =>
-      'Please enter your name as it appears on your ID or passport.';
+      'الرجاء إدخال الاسم كما يظهر على الهوية أو جواز السفر.';
 
   @override
-  String get enterYourGender => 'Please enter your gender.';
+  String get enterYourGender => 'الرجاء إدخال الجنس.';
 
   @override
   String get pleaseEnterMobileOrEmail =>
-      'Please enter your mobile number or email to continue.';
+      'الرجاء إدخال رقم هاتفك المحمول أو البريد الإلكتروني للمتابعة.';
 
   @override
-  String get dontHaveAnAccount => 'Dont Have an Account?';
+  String get dontHaveAnAccount => 'لا تملك حساب؟';
 
   @override
-  String get signUsingOtp => 'Sign in using OTP';
+  String get signUsingOtp => 'تسجيل الدخول باستخدام OTP';
 
   @override
-  String get signUsingPassword => 'Sign in using Password';
+  String get signUsingPassword => 'تسجيل الدخول باستخدام كلمة المرور';
 
   @override
-  String get signIn => 'Sign In';
+  String get signIn => 'تسجيل الدخول';
 
   @override
-  String get verifyYourAccount => 'Verify Your Account';
+  String get verifyYourAccount => 'التحقق من حسابك';
 
   @override
-  String get sendCode => 'We\'ve sent a 6-digit code to';
+  String get sendCode => 'لقد أرسلنا رمزًا مكونًا من 6 أرقام إلى';
 
   @override
-  String get changeNumber => 'Change Number';
+  String get changeNumber => 'تغيير الرقم';
 
   @override
-  String get verifyOtp => 'Verify OTP';
+  String get verifyOtp => 'التحقق من كلمة المرور لمرة واحدة';
 
   @override
-  String get free => 'Free';
+  String get free => 'حر';
 
   @override
-  String get enterValidMobile => 'Please enter valid mobile number';
+  String get enterValidMobile => 'الرجاء إدخال رقم الهاتف المحمول الصحيح';
 
   @override
-  String get pleaseEnterMobileNumber => 'please enter mobile number';
+  String get pleaseEnterMobileNumber => 'الرجاء إدخال رقم الهاتف المحمول';
 
   @override
-  String get enterValidEmail => 'Please enter valid email address';
+  String get enterValidEmail => 'الرجاء إدخال عنوان بريد إلكتروني صالح';
 
   @override
-  String get forgotPassword => 'Forgot Password';
+  String get forgotPassword => 'هل نسيت كلمة السر';
 
   @override
-  String get sendOtp => 'Send OTP';
+  String get sendOtp => 'إرسال OTP';
 
   @override
-  String get signUp => 'Sign Up';
+  String get signUp => 'اشتراك';
 
   @override
-  String get getStarted => 'Tell us a bit about yourself to get started.';
+  String get getStarted => 'أخبرنا القليل عن نفسك للبدء.';
 
   @override
-  String get fullName => 'Full Name';
+  String get fullName => 'الاسم الكامل';
 
   @override
-  String get alreadyHaveAccount => 'Already Have an Account?';
+  String get alreadyHaveAccount => 'هل لديك حساب بالفعل؟';
 
   @override
   String get confirmOtpNumber =>
-      'We\'ll send a one-time password (OTP) to this number to confirm your identity.';
+      'Wسوف نرسل كلمة مرور لمرة واحدة (OTP) إلى هذا الرقم لتأكيد هويتك.';
 
   @override
-  String get verifyMobileNumber => 'Verify your mobile number';
+  String get verifyMobileNumber => 'التحقق من رقم هاتفك المحمول';
 
   @override
-  String get verifyPhone => 'Verify Phone';
+  String get verifyPhone => 'التحقق من الهاتف';
 
   @override
-  String get updatePassword => 'Update Password';
+  String get updatePassword => 'تحديث كلمة المرور';
 
   @override
-  String get userConnect => 'User Connect';
+  String get userConnect => 'اتصال المستخدم';
 
   @override
-  String get loginContent => 'Login as User';
+  String get loginContent => 'تسجيل الدخول كمستخدم';
 
   @override
-  String get addPrefrence => 'AddPreference';
+  String get addPrefrence => 'إضافة التفضيلات';
 
   @override
-  String get preferences => 'Preferences';
+  String get preferences => 'التفضيلات';
 
   @override
-  String get planYourRide => 'Plan your ride';
+  String get planYourRide => 'خطط لرحلتك';
 
   @override
-  String get changeEmail => 'Change Email';
+  String get changeEmail => 'تغيير البريد الإلكتروني';
 
   @override
-  String get verifyEmailId => 'Verify your email id';
+  String get verifyEmailId => 'تحقق من معرف البريد الإلكتروني الخاص بك';
 
   @override
-  String get verifyEmailText => 'Verify Email';
+  String get verifyEmailText => 'تأكيد البريد الإلكتروني';
 
   @override
-  String get deliveryOutStation => 'Delivery OutStation';
+  String get deliveryOutStation => 'توصيل خارج المحطة';
 
   @override
-  String get deliveryRental => 'Delivery Rental';
+  String get deliveryRental => 'تأجير التوصيل';
 
   @override
-  String get deliveryRide => 'Delivery Ride';
+  String get deliveryRide => 'رحلة توصيل';
 }
