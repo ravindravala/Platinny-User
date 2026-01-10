@@ -41,7 +41,7 @@ class AppImages {
   static const String sun = 'assets/images/sun.png';
   static const String moon = 'assets/images/moon.png';
   static const String discount = 'assets/images/discount.png';
-  static const String bg = 'assets/images/customBg.png';
+  // static const String bg = 'assets/images/customBg.png';
   static const String upload = 'assets/images/upload.png';
   static const String supportEmpty = 'assets/images/support_empty.png';
   static const String pdfImage = 'assets/images/pngImage.png';

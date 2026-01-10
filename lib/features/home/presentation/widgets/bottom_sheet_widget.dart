@@ -303,15 +303,15 @@ class BottomSheetWidget extends StatelessWidget {
                   ),
                   SizedBox(height: size.width * 0.01),
                   SizedBox(height: size.width * 0.1),
-                  Expanded(
-                      child: Container(
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage(AppImages.bottomBackground),
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                  ))
+                  // Expanded(
+                  //     child: Container(
+                  //   decoration: const BoxDecoration(
+                  //     image: DecorationImage(
+                  //       image: AssetImage(AppImages.bottomBackground),
+                  //       fit: BoxFit.cover,
+                  //     ),
+                  //   ),
+                  // ))
                 ],
               ),
             );
