@@ -19,6 +19,12 @@ class LoaderPage extends StatefulWidget {
 
 class _LoaderPageState extends State<LoaderPage> {
   @override
+  void initState() {
+    super.initState();
+    context.read<LoaderBloc>().add(LoaderLoginEvent());
+  }
+
+  @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return BlocProvider(

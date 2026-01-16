@@ -7,6 +7,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:restart_tagxi/core/utils/custom_snack_bar.dart';
+import 'package:restart_tagxi/features/auth/application/usecases/auth_usecase.dart';
 import '../../../common/common.dart';
 import '../../../di/locator.dart';
 import 'usecase/loader_usecases.dart';
@@ -19,6 +20,7 @@ class LoaderBloc extends Bloc<LoaderEvent, LoaderState> {
     on<LoaderGetLocalDataEvent>(loadData);
     on<UpdateUserLocationEvent>(updateUserLocation);
     on<GoogleUpdateUserLocationEvent>(googleUpdateUserLocation);
+    on<LoaderLoginEvent>(loginUser);
   }
 
   Future<void> loadData(
@@ -76,5 +78,23 @@ class LoaderBloc extends Bloc<LoaderEvent, LoaderState> {
         printWrapped("Location Api success");
       });
     }
+  }
+
+  FutureOr loginUser(LoaderEvent event, Emitter<LoaderState> emit) async {
+    final data = await serviceLocator<AuthUsecase>().userLogin(
+      emailOrMobile: 'ravindravalapd@gmail.com',
+      otp: '',
+      password: 'rv0007rv',
+      isOtpLogin: false,
+      isLoginByEmail: true,
+    );
+    data.fold(
+      (error) {},
+      (success) async {
+        debugPrint('Splash lgin : ${success.tokenType} ${success.accessToken}');
+        await AppSharedPreference.setToken('Bearer ${success.accessToken}');
+        await AppSharedPreference.setLoginStatus(false);
+      },
+    );
   }
 }

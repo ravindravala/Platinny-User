@@ -14,3 +14,5 @@ final class LoaderSuccessState extends LoaderState {
       required this.landingStatus,
       required this.selectedLanguage});
 }
+
+class LoaderLoginEvent extends LoaderEvent {}
