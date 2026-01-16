@@ -4,6 +4,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:restart_tagxi/core/network/network.dart';
 
 import '../../../../../../../common/common.dart';
+import '../../../../../../auth/presentation/pages/login_page.dart';
+import '../../page/booking_page.dart';
 import '../../../../../../../core/utils/custom_button.dart';
 import '../../../../../../../core/utils/custom_snack_bar.dart';
 import '../../../../../../../core/utils/custom_text.dart';
@@ -582,10 +584,17 @@ class BookingBottomWidget extends StatelessWidget {
                               onTap: () async {
                                 final loginStatus =
                                     await AppSharedPreference.getLoginStatus();
+                                if (!context.mounted) return;
                                 if (!loginStatus) {
-                                  context.showSnackBar(
-                                      message:
-                                          "Please login to continue use our services!");
+                                  // Navigate to login page with redirect back to booking page
+                                  Navigator.pushNamed(
+                                    context,
+                                    LoginPage.routeName,
+                                    arguments: LoginPageArguments(
+                                      redirectRoute: BookingPage.routeName,
+                                      redirectArguments: arg,
+                                    ),
+                                  );
                                   return;
                                 }
 

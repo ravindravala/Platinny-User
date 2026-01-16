@@ -485,3 +485,18 @@ class SignupMobilePageArguments {
 
   SignupMobilePageArguments({required this.mobileOrEmailSignUp});
 }
+
+/// Arguments for LoginPage to handle redirect after successful login
+/// Used for guest mode flow (Apple guideline 5.1.1)
+class LoginPageArguments {
+  /// The route to navigate to after successful login
+  final String? redirectRoute;
+
+  /// The arguments to pass to the redirect route
+  final Object? redirectArguments;
+
+  LoginPageArguments({
+    this.redirectRoute,
+    this.redirectArguments,
+  });
+}

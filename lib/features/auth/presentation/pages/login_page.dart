@@ -24,9 +24,10 @@ import 'signup_mobile_page.dart';
 
 class LoginPage extends StatefulWidget {
   static const String routeName = '/loginPage';
-  // final LoginPageArguments arg;
+  final LoginPageArguments? arg;
   const LoginPage({
     super.key,
+    this.arg,
   });
 
   @override
@@ -163,8 +164,21 @@ class _LoginPageState extends State<LoginPage>
           } else if (state is LoginSuccessState ||
               state is ConfirmMobileOrEmailState) {
             context.read<LoaderBloc>().add(UpdateUserLocationEvent());
-            Navigator.pushNamedAndRemoveUntil(
-                context, HomePage.routeName, (route) => false);
+            // Check if we need to redirect to a specific page after login
+            if (widget.arg?.redirectRoute != null) {
+              // Navigate to HomePage first, then to the redirect route
+              Navigator.pushNamedAndRemoveUntil(
+                  context, HomePage.routeName, (route) => false);
+              // Then push the redirect route on top
+              Navigator.pushNamed(
+                context,
+                widget.arg!.redirectRoute!,
+                arguments: widget.arg!.redirectArguments,
+              );
+            } else {
+              Navigator.pushNamedAndRemoveUntil(
+                  context, HomePage.routeName, (route) => false);
+            }
           }
         },
         child: BlocBuilder<AuthBloc, AuthState>(

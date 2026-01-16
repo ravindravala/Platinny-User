@@ -333,7 +333,9 @@ class AppRoutes {
         break;
       case LoginPage.routeName:
         pageRoute = MaterialPageRoute(
-          builder: (context) => const LoginPage(),
+          builder: (context) => LoginPage(
+            arg: arg as LoginPageArguments?,
+          ),
         );
       case OtpPage.routeName:
         pageRoute = MaterialPageRoute(
