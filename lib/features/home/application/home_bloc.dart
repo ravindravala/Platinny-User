@@ -598,9 +598,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
       //   currentPositionUpdate();
       // }
     } else {
-      showToast(
-          message: 'allow location permission to get your current location');
-      emit(GetLocationPermissionState());
+      // showToast(
+      //     message: 'allow location permission to get your current location');
+      // emit(GetLocationPermissionState());
     }
   }
 
@@ -638,9 +638,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
         add(GetCurrentLocationEvent(mapType: mapType));
       }
     } else {
-      showToast(
-          message: 'allow location permission to get your current location');
-      emit(GetLocationPermissionState());
+      // showToast(
+      //     message: 'allow location permission to get your current location');
+      // emit(GetLocationPermissionState());
     }
 
     // emit(LocateMeState());
@@ -930,10 +930,10 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
               isFromHomePage: event.isFromHomePage,
               controller: event.controller));
         } else {
-          showToast(
-              message:
-                  'allow location permission to get your current location');
-          emit(GetLocationPermissionState());
+          // showToast(
+          //     message:
+          //         'allow location permission to get your current location');
+          // emit(GetLocationPermissionState());
         }
       }
     }
