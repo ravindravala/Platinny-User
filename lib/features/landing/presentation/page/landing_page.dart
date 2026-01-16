@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:restart_tagxi/common/app_colors.dart';
 import 'package:restart_tagxi/features/auth/presentation/pages/login_page.dart';
+import 'package:restart_tagxi/features/home/presentation/pages/home_page.dart';
 
 import '../../../../core/utils/custom_button.dart';
 import '../../../../core/utils/custom_loader.dart';
@@ -44,7 +45,7 @@ class _LandingPageState extends State<LandingPage> {
           }
           if (state is SkipState) {
             Navigator.pushNamedAndRemoveUntil(
-                context, LoginPage.routeName, (route) => false);
+                context, HomePage.routeName, (route) => false);
           }
         },
         child: BlocBuilder<OnBoardingBloc, OnBoardingState>(

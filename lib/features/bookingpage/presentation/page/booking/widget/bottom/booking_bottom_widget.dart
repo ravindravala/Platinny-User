@@ -1,6 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:restart_tagxi/core/network/network.dart';
 
 import '../../../../../../../common/common.dart';
 import '../../../../../../../core/utils/custom_button.dart';
@@ -578,7 +579,16 @@ class BookingBottomWidget extends StatelessWidget {
                                       : AppLocalizations.of(context)!
                                           .scheduleRide,
                               isLoader: bookingBloc.isLoading,
-                              onTap: () {
+                              onTap: () async {
+                                final loginStatus =
+                                    await AppSharedPreference.getLoginStatus();
+                                if (!loginStatus) {
+                                  context.showSnackBar(
+                                      message:
+                                          "Please login to continue use our services!");
+                                  return;
+                                }
+
                                 if (bookingBloc.selectedVehicleIndex != 999) {
                                   if (bookingBloc.transportType == 'delivery' &&
                                       !bookingBloc.detailView) {
