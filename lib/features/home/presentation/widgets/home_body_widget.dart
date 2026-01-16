@@ -8,11 +8,13 @@ import 'package:latlong2/latlong.dart' as fmlt;
 
 import '../../../../common/common.dart';
 import '../../../../common/pickup_icon.dart';
+import '../../../../core/network/extensions.dart';
 import '../../../../core/utils/custom_button.dart';
 import '../../../../core/utils/custom_navigation_icon.dart';
 import '../../../../core/utils/custom_text.dart';
 import '../../../../l10n/app_localizations.dart';
 import '../../../account/presentation/pages/account_page.dart';
+import '../../../auth/presentation/pages/login_page.dart';
 import '../../application/home_bloc.dart';
 import '../../domain/models/user_details_model.dart';
 import 'bottom_sheet_widget.dart';
@@ -461,7 +463,17 @@ class HomeBodyWidget extends StatelessWidget {
                     children: [
                       NavigationIconWidget(
                         icon: InkWell(
-                          onTap: () {
+                          onTap: () async {
+                            final loginStatus =
+                                await AppSharedPreference.getLoginStatus();
+                            if (!context.mounted) return;
+                            if (!loginStatus) {
+                              context.showSnackBar(
+                                  message:
+                                      "Please login to continue our service");
+                              Navigator.pushNamed(context, LoginPage.routeName);
+                              return;
+                            }
                             if (homeBloc.userData != null) {
                               Navigator.pushNamed(
                                       context, AccountPage.routeName,
